@@ -1,0 +1,24 @@
+{
+  "name": "web-components-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "nodemon . --ignore ./public",
+    "test-replit": "npx nodemon . -- ignore ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coalwork/web-components-todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coalwork/web-components-todo/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

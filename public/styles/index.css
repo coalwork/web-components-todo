@@ -1,0 +1,45 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+:root, input, button {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #A8FF5C url('../assets/beige-paper.png');
+}
+
+#wrapper {
+  height: 50vh;
+  overflow: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form > button, form > input {
+  padding: 2px 0px;
+  border: 2px solid lightgray;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+form > button {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+form > input {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+form > button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
